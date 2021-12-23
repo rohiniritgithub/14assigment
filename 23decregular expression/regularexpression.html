@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function is_name(str)
+		{
+			var regexp=/^[a-zA-Z0-9@.]{3,30}$/;
+			if(regexp.test(str))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		document.write(is_name("Sachin@123"));
+	</script>
+
+</body>
+</html>
